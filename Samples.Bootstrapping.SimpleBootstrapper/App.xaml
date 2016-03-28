@@ -1,0 +1,14 @@
+﻿<Application x:Class="Samples.Bootstrapping.SimpleBootstrapper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:simpleBootstrapper="clr-namespace:Samples.Bootstrapping.SimpleBootstrapper">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <simpleBootstrapper:AppBootstrapper x:Key="AppBootstrapper" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
