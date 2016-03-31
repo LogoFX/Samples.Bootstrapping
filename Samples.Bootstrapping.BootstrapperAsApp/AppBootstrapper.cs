@@ -9,9 +9,9 @@ namespace Samples.Bootstrapping.BootstrapperAsApp
 {
     public class AppBootstrapper : BootstrapperContainerBase<ShellViewModel, WinRTContainerAdapter, WinRTContainer>
     {
-        private static readonly WinRTContainer _iocContainer = new WinRTContainer();
+        private static readonly WinRTContainer IocContainer = new WinRTContainer();
 
-        public AppBootstrapper() : base(_iocContainer, c => new WinRTContainerAdapter(c))
+        protected AppBootstrapper() : base(IocContainer, c => new WinRTContainerAdapter(c))
         {
         }
 
@@ -28,7 +28,7 @@ namespace Samples.Bootstrapping.BootstrapperAsApp
 
         protected override void PrepareViewFirst(Frame rootFrame)
         {
-            _iocContainer.RegisterNavigationService(rootFrame);
+            IocContainer.RegisterNavigationService(rootFrame);
         }
     }
 }

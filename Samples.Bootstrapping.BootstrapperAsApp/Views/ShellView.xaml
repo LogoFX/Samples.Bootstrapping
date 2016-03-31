@@ -7,6 +7,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="DisplayName" />
+        <!-- ReSharper disable NotAccessedField.Local -->
+        <TextBlock x:Name="DisplayName" Style="{ThemeResource CaptionTextBlockStyle}"/>
+        <!-- ReSharper restore NotAccessedField.Local -->
     </Grid>
 </Page>
