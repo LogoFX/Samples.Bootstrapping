@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Samples.Bootstrapping.SimpleBootstrapper.Properties
+namespace LogoFX.Client.Bootstrapping.Samples.WPF.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Samples.Bootstrapping.SimpleBootstrapper.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Samples.Bootstrapping.SimpleBootstrapper.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LogoFX.Client.Bootstrapping.Samples.WPF.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

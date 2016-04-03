@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Samples.Bootstrapping.SimpleBootstrapper.Properties
+namespace LogoFX.Client.Bootstrapping.Samples.WPF.Properties
 {
 
 
