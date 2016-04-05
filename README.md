@@ -4,7 +4,7 @@ This sample demonstrates how start to use LogoFX framework and setup application
 
 ---
 
-## WPF
+## WPF & ExtendedSimpleContainerAdapter
 
 ### Steps to create
 
@@ -43,3 +43,6 @@ This sample demonstrates how start to use LogoFX framework and setup application
             appBootstrapper.Initialize();
         }
 ```
+### Creation Options
+
+The `BootstrapperContainerBase` constructor accepts Creation Options.
