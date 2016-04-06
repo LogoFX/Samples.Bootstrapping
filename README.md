@@ -46,3 +46,12 @@ This sample demonstrates how start to use LogoFX framework and setup application
 ### Creation Options
 
 The `BootstrapperContainerBase` constructor accepts Creation Options.
+
+The `BootstrapperCreationOptions` class represents various settings for bootstrapper creation.
+
+* `UseApplication` - a value indicating whether the real application is used. Default value is `true`. Use `false` for tests.
+* `ReuseCompositionInformation` - a value indicating whether the composition information is re-used. Use `true` when running lots of integration client-side tests. The default value is `true`.
+* `DiscoverCompositionModules` - a value indicating whether the bootstrapper should look for instances of `Solid.Practices.Modularity.ICompositionModule`. The default value is `true`.
+* `InspectAssemblies` - a value indicating whether the bootstrapper should look for potential application-component assemblies. The default value is `true`.
+* `UseDefaultMiddlewares` - a value indicating whether the default middlewares are used. The default value is `true`.
+* `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization.
