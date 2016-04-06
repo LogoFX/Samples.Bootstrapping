@@ -54,7 +54,7 @@ The `BootstrapperCreationOptions` class represents various settings for bootstra
 * `DiscoverCompositionModules` - a value indicating whether the bootstrapper should look for instances of `Solid.Practices.Modularity.ICompositionModule`. The default value is `true`.
 * `InspectAssemblies` - a value indicating whether the bootstrapper should look for potential application-component assemblies. The default value is `true`.
 * `UseDefaultMiddlewares` - a value indicating whether the default middlewares are used. The default value is `true`.
-* `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization.
+* `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization. The default value is `true`.
 
 Usage:
 
