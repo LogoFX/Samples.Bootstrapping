@@ -1,6 +1,6 @@
 # Samples.Bootstrapping
 
-This sample demonstrates how start to use LogoFX framework and setup application bootstrapper.
+This sample demonstrates how to start using LogoFX framework and setup application bootstrapper.
 
 ---
 
@@ -8,9 +8,9 @@ This sample demonstrates how start to use LogoFX framework and setup application
 
 ### Steps to create
 
-1. Create new WPF project
-2. Remove MainWindow.xaml/MainWindow.xaml.cs
-3. In App.xaml remove `StartupUri` element.
+- Create new WPF project
+- Remove MainWindow.xaml/MainWindow.xaml.cs
+- In App.xaml remove `StartupUri` element.
 
 ```
 <Application x:Class="LogoFX.Client.Bootstrapping.Samples.WPF.App"
@@ -22,8 +22,8 @@ This sample demonstrates how start to use LogoFX framework and setup application
     </Application.Resources>
 </Application>
 ```
-4. Add folders Views and ViewModels. Add new class `ShellViewModel` to ViewModels folder and new WPF Window `ShellView` to Views.
-5. Add new class `AppBootstrapper` to root of project.
+- Add folders Views and ViewModels. Add new class `ShellViewModel` to ViewModels folder and new WPF Window `ShellView` to Views.
+- Add new class `AppBootstrapper` to root of project.
 
 ```
     public class AppBootstrapper : BootstrapperContainerBase<ShellViewModel, ExtendedSimpleContainerAdapter>
@@ -35,7 +35,7 @@ This sample demonstrates how start to use LogoFX framework and setup application
     }
 ```
 
-6. In `App` constructor create new instance of `AppBootstrapper` and invoke `Initialize()` method..
+- In `App` constructor create new instance of `AppBootstrapper` and invoke `Initialize()` method..
  
 ```
         public App()
@@ -48,14 +48,14 @@ This sample demonstrates how start to use LogoFX framework and setup application
 
 The `BootstrapperContainerBase` constructor accepts Creation Options.
 
-The `BootstrapperCreationOptions` class represents various settings for bootstrapper creation.
+The `BootstrapperCreationOptions` class represents various settings for bootstrapper creation. Description of the properties of this class follows bellow.
 
-* `UseApplication` - a value indicating whether the real application is used. Default value is `true`. Use `false` for tests.
-* `ReuseCompositionInformation` - a value indicating whether the composition information is re-used. Use `true` when running lots of integration client-side tests. The default value is `true`.
-* `DiscoverCompositionModules` - a value indicating whether the bootstrapper should look for instances of `Solid.Practices.Modularity.ICompositionModule`. The default value is `true`.
-* `InspectAssemblies` - a value indicating whether the bootstrapper should look for potential application-component assemblies. The default value is `true`.
-* `UseDefaultMiddlewares` - a value indicating whether the default middlewares are used. The default value is `true`.
-* `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization. The default value is `true`.
+- `UseApplication` - a value indicating whether the real application is used. Default value is `true`. Use `false` for tests.
+- `ReuseCompositionInformation` - a value indicating whether the composition information is re-used. Use `true` when running lots of integration client-side tests. The default value is `true`.
+- `DiscoverCompositionModules` - a value indicating whether the bootstrapper should look for instances of `Solid.Practices.Modularity.ICompositionModule`. The default value is `true`.
+- `InspectAssemblies` - a value indicating whether the bootstrapper should look for potential application-component assemblies. The default value is `true`.
+- `UseDefaultMiddlewares` - a value indicating whether the default middlewares are used. The default value is `true`.
+- `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization. The default value is `true`.
 
 Usage:
 
