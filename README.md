@@ -34,6 +34,7 @@ This sample demonstrates how start to use LogoFX framework and setup application
         }
     }
 ```
+
 6. In `App` constructor create new instance of `AppBootstrapper` and invoke `Initialize()` method..
  
 ```
