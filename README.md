@@ -55,3 +55,21 @@ The `BootstrapperCreationOptions` class represents various settings for bootstra
 * `InspectAssemblies` - a value indicating whether the bootstrapper should look for potential application-component assemblies. The default value is `true`.
 * `UseDefaultMiddlewares` - a value indicating whether the default middlewares are used. The default value is `true`.
 * `DisplayRootView` - a value indicating whether the root view is displayed upon successful initialization.
+
+Usage:
+
+```
+        public AppBootstrapper()
+            : base(new ExtendedSimpleContainerAdapter(),
+                  new BootstrapperCreationOptions
+                  {
+                      DiscoverCompositionModules = true,
+                      InspectAssemblies = true,
+                      ReuseCompositionInformation = true,
+                      UseApplication = true,
+                      UseDefaultMiddlewares = true,
+                      DisplayRootView = true
+                  })
+        {
+        }
+```
