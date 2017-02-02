@@ -1,5 +1,7 @@
 # Samples.Bootstrapping
 
+<img src=https://ci.appveyor.com/api/projects/status/github/logofx/Samples.Bootstrapping>
+
 This sample demonstrates how to start using LogoFX framework and setup application bootstrapper.
 
 ---
