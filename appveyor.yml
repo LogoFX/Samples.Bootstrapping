@@ -5,3 +5,16 @@ before_build:
 
 build:
   verbosity: minimal
+
+image: Visual Studio 2017
+  
+notifications:
+- provider: Email
+  to:
+  - gennady.verdel@logoui.co.il
+  - david@logoui.co.il
+  - dmitry.bublik@logoui.co.il
+  on_build_success: false
+  on_build_failure: false
+  on_build_status_changed: true
+  
