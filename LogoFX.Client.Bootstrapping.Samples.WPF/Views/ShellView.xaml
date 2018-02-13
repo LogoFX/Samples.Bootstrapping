@@ -6,6 +6,8 @@
         mc:Ignorable="d"
         Height="350" Width="350">
     <Grid>
-        
+        <TextBlock Text="Hello Bootstrapping" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+            
+        </TextBlock>
     </Grid>
 </Window>
