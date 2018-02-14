@@ -1,0 +1,8 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Gennady Verdel",
+  "classifications": [ "Samples", "WPf", "LogoFX" ],
+  "identity": "LogoFX.Client.Boostrapping.Samples.WPF.CSharp",
+  "name": "LogoFX.Client.Boostrapping.Samples",
+  "shortName": "logofx-client-bootstrapping"
+}
