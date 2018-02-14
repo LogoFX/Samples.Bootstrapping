@@ -1,13 +1,7 @@
-﻿using Caliburn.Micro;
-
-namespace LogoFX.Client.Bootstrapping.Samples.WPF.ViewModels
+﻿namespace LogoFX.Client.Bootstrapping.Samples.WPF.ViewModels
 {
-    public class ShellViewModel : Screen
+    public class ShellViewModel
     {
-        protected override void OnInitialize()
-        {
-            base.OnInitialize();
-            DisplayName = "Samples.Bootstrapping";
-        }
+        public string DisplayName => "Samples.Bootstrapping";
     }
 }
