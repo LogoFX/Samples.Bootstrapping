@@ -1,11 +1,13 @@
-﻿namespace LogoFX.Client.Bootstrapping.Samples.WPF
+﻿using Solid.Core;
+
+namespace LogoFX.Client.Bootstrapping.Samples.WPF
 {    
     public partial class App
     {
         public App()
         {
             var appBootstrapper = new AppBootstrapper();
-            appBootstrapper.Initialize();
+            (appBootstrapper as IInitializable).Initialize();
         }
     }
 }
