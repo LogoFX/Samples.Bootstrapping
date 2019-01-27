@@ -7,7 +7,7 @@ namespace LogoFX.Client.Bootstrapping.Samples.WPF
         public App()
         {
             var appBootstrapper = new AppBootstrapper();
-            (appBootstrapper as IInitializable).Initialize();
+            ((IInitializable) appBootstrapper).Initialize();
         }
     }
 }
