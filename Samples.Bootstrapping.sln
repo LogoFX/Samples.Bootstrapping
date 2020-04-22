@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Bootstrapping.Samples.WPF", "LogoFX.Client.Bootstrapping.Samples.WPF\LogoFX.Client.Bootstrapping.Samples.WPF.csproj", "{FB0C95A4-493F-44E7-A73A-1AF86C41AE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Bootstrapping.Samples", "LogoFX.Client.Bootstrapping.Samples\LogoFX.Client.Bootstrapping.Samples.csproj", "{5023C8FC-132F-4725-B875-0A572AB3391F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,27 @@ Global
 		{FB0C95A4-493F-44E7-A73A-1AF86C41AE48}.Release|x64.Build.0 = Release|Any CPU
 		{FB0C95A4-493F-44E7-A73A-1AF86C41AE48}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB0C95A4-493F-44E7-A73A-1AF86C41AE48}.Release|x86.Build.0 = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|x64.Build.0 = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Debug|x86.Build.0 = Debug|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|ARM.Build.0 = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|x64.Build.0 = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5023C8FC-132F-4725-B875-0A572AB3391F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB4D3CD4-BF16-4BED-87EC-52B96EAF52AC}
 	EndGlobalSection
 EndGlobal
