@@ -1,8 +1,15 @@
-﻿{
+{
   "$schema": "http://json.schemastore.org/template",
-  "author": "Gennady Verdel",
-  "classifications": [ "Samples", "WPf", "LogoFX" ],
-  "identity": "LogoFX.Client.Boostrapping.Samples.WPF.CSharp",
+  "author": "LogoUI",
+  "classifications": [ "WPF" ], 
   "name": "LogoFX.Client.Boostrapping.Samples",
-  "shortName": "logofx-client-bootstrapping"
+  "identity": "LogoFX.Client.Boostrapping.Samples.WPF.CSharp",         
+  "groupIdentity":"Samples.Bootstrapping.Template",
+  "shortName": "logofx-client-bootstrapping",                    // You can create the project using this short name instead of the one above.
+  "tags": {
+    "language": "C#",                         // Specify that this template is in C#.
+    "type":"project"
+  },
+  "sourceName": "LogoFX.Client.Bootstrapping.Samples.WPF ",              // Will replace the string 'MyProject.StarterWeb' with the value provided via -n.
+  "preferNameDirectory":true
 }
