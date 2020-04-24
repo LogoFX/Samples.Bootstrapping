@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "LogoUI",
-  "classifications": [ "LogoFX", "Wpf" ], 
+  "classifications": [ "LogoFX", "WPF" ], 
   "name": "LogoFX.Client.Bootstrapping.Samples",
   "identity": "LogoFX.Client.Bootstrapping.Samples.CSharp",         
   "groupIdentity":"Samples.Bootstrapping.Template",
