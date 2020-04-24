@@ -92,3 +92,9 @@ where <path-to-project> is full or relative path to project folder.
 ```
 dotnet new logofx-client-bootstrapping
 ```
+
+The project will create in current folder with name of this folder. For set custom project name use -n switch.
+
+```
+dotnet new logofx-client-bootstrapping -n <new-project-name>
+```
