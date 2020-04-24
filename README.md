@@ -85,7 +85,7 @@ Usage:
 dotnet new -i <path-to-project>
 ```
 
-where <path-to-project> is full or relative path to project folder.
+This command will create new template with name `logofx-client-bootstrapping` (in `template.json`) from the project where `<path-to-project>` is full or relative path to project folder.
   
 ## Create project from this template
 
@@ -93,7 +93,7 @@ where <path-to-project> is full or relative path to project folder.
 dotnet new logofx-client-bootstrapping
 ```
 
-The project will create in current folder with name of this folder. For set custom project name use -n switch.
+The project will create in current folder with name of this folder. For set custom project name use `-n` switch.
 
 ```
 dotnet new logofx-client-bootstrapping -n <new-project-name>
