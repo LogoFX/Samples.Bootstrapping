@@ -1,6 +1,6 @@
 ﻿using Solid.Core;
 
-namespace logofx_client_bootstrapping_samples
+namespace LogoFX.Client.Bootstrapping.Samples
 {
     /// <summary>
     /// Interaction logic for App.xaml
