@@ -76,3 +76,19 @@ Usage:
         {
         }
 ```
+
+# Templating
+
+## Create template
+
+```
+dotnet new -i <path-to-project>
+```
+
+where <path-to-project> is full or relative path to project folder.
+  
+## Create project from this template
+
+```
+dotnet new logofx-client-bootstrapping
+```
