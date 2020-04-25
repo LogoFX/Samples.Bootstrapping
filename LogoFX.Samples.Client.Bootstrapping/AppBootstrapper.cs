@@ -1,8 +1,9 @@
-﻿using LogoFX.Client.Bootstrapping.Adapters.SimpleContainer;
-using LogoFX.Client.Bootstrapping.Samples.ViewModels;
+﻿using LogoFX.Client.Bootstrapping;
+using LogoFX.Client.Bootstrapping.Adapters.SimpleContainer;
+using LogoFX.Samples.Client.Bootstrapping.ViewModels;
 using Solid.Practices.Composition;
 
-namespace LogoFX.Client.Bootstrapping.Samples
+namespace LogoFX.Samples.Client.Bootstrapping
 {
     public class AppBootstrapper : BootstrapperContainerBase<ExtendedSimpleContainerAdapter>.WithRootObject<ShellViewModel>
     {
@@ -14,7 +15,7 @@ namespace LogoFX.Client.Bootstrapping.Samples
 
         public override CompositionOptions CompositionOptions => new CompositionOptions
         {
-            Prefixes = new[] { "LogoFX.Client.Bootstrapping.Samples" }
+            Prefixes = new[] { "LogoFX.Samples.Client.Bootstrapping" }
         };
     }
 }

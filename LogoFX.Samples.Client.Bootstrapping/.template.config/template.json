@@ -2,14 +2,14 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "LogoUI",
   "classifications": [ "LogoFX", "WPF" ], 
-  "name": "LogoFX.Client.Bootstrapping.Samples",
-  "identity": "LogoFX.Client.Bootstrapping.Samples.CSharp",         
+  "name": "LogoFX.Samples.Client.Bootstrapping",
+  "identity": "LogoFX.Samples.Client.Bootstrapping.CSharp",         
   "groupIdentity":"Samples.Bootstrapping.Template",
   "shortName": "logofx-client-bootstrapping",                    // You can create the project using this short name instead of the one above.
   "tags": {
     "language": "C#",                         // Specify that this template is in C#.
     "type":"project"
   },
-  "sourceName": "logofx_client_bootstrapping_samples",              // Will replace the string 'logofx_client_bootstrapping_samples' with the value provided via -n.
+  "sourceName": "LogoFX.Samples.Client.Bootstrapping",              // Will replace the string 'LogoFX.Client.Bootstrapping.Samples' with the value provided via -n.
   "preferNameDirectory":true
 }

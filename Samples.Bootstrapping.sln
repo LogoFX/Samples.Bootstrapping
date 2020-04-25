@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logofx_client_bootstrapping_samples", "logofx_client_bootstrapping_samples\logofx_client_bootstrapping_samples.csproj", "{5023C8FC-132F-4725-B875-0A572AB3391F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Samples.Client.Bootstrapping", "LogoFX.Samples.Client.Bootstrapping\LogoFX.Samples.Client.Bootstrapping.csproj", "{5023C8FC-132F-4725-B875-0A572AB3391F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
