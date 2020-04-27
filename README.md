@@ -15,25 +15,26 @@ This sample demonstrates how to start using LogoFX framework and setup applicati
 - In App.xaml remove `StartupUri` element.
 
 ```
-<Application x:Class="LogoFX.Client.Bootstrapping.Samples.WPF.App"
+<Application x:Class="LogoFX.Samples.Client.Bootstrapping.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-    <Application.Resources>
-         
-    </Application.Resources>
-</Application>
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" />
 ```
 - Add folders Views and ViewModels. Add new class `ShellViewModel` to ViewModels folder and new WPF Window `ShellView` to Views.
 - Add new class `AppBootstrapper` to root of project.
 
 ```
-    public class AppBootstrapper : BootstrapperContainerBase<ShellViewModel, ExtendedSimpleContainerAdapter>
+    public class AppBootstrapper : BootstrapperContainerBase<ExtendedSimpleContainerAdapter>.WithRootObject<ShellViewModel>
     {
         public AppBootstrapper()
             : base(new ExtendedSimpleContainerAdapter())
         {
+
         }
+
+        public override CompositionOptions CompositionOptions => new CompositionOptions
+        {
+            Prefixes = new[] {"LogoFX.Samples.Client.Bootstrapping"}
+        };
     }
 ```
 
@@ -43,7 +44,7 @@ This sample demonstrates how to start using LogoFX framework and setup applicati
         public App()
         {
             var appBootstrapper = new AppBootstrapper();
-            appBootstrapper.Initialize();
+            ((IInitializable)appBootstrapper).Initialize();
         }
 ```
 ### Creation Options
