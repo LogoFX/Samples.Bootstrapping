@@ -8,14 +8,14 @@ namespace LogoFX.Samples.Client.Bootstrapping
     public class AppBootstrapper : BootstrapperContainerBase<ExtendedSimpleContainerAdapter>.WithRootObject<ShellViewModel>
     {
         public AppBootstrapper()
-		:base (new ExtendedSimpleContainerAdapter())
-		{
-			
-		}
+            : base(new ExtendedSimpleContainerAdapter())
+        {
+
+        }
 
         public override CompositionOptions CompositionOptions => new CompositionOptions
         {
-            Prefixes = new[] { "LogoFX.Samples.Client.Bootstrapping" }
+            Prefixes = new[] {"LogoFX.Samples.Client.Bootstrapping"}
         };
     }
 }
