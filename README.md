@@ -76,3 +76,25 @@ Usage:
         {
         }
 ```
+
+# Templating
+
+## Create template
+
+```
+dotnet new -i <path-to-project>
+```
+
+This command will create new template with name `logofx-client-bootstrapping` (in `template.json`) from the project where `<path-to-project>` is full or relative path to project folder.
+  
+## Create project from this template
+
+```
+dotnet new logofx-client-bootstrapping
+```
+
+The project will be created in current folder with name of this folder. For set custom project name use `-n` switch.
+
+```
+dotnet new logofx-client-bootstrapping -n <new-project-name>
+```

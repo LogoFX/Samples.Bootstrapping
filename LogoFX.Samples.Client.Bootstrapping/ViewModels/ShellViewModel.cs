@@ -1,4 +1,4 @@
-﻿namespace LogoFX.Client.Bootstrapping.Samples.WPF.ViewModels
+﻿namespace LogoFX.Samples.Client.Bootstrapping.ViewModels
 {
     public class ShellViewModel
     {
